@@ -10,7 +10,6 @@ SELECT
   loja_id,
   TRIM(nome) AS nome,
   TRIM(cidade) AS cidade,
-  -- Padronização de tamanhos
   CASE 
     WHEN tamanho IS NULL THEN 'Média'
     WHEN tamanho IN ('P', 'Pequena') THEN 'Pequena'
