@@ -123,7 +123,7 @@ Análises:
 
 - Resumo das Vendas (Mensal)
 
-# 5. Resultados Obtidos
+## 5. Resultados Obtidos
 
 ## Análise de Dados de Vendas
 
