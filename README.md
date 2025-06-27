@@ -2,7 +2,7 @@
 
 # Projeto de Pipeline de Dados: Da Ingestão à Análise de Vendas
 
-Acesse também no meu [portfólio](
+Acesse também no meu [portfólio](https://dorrigo.github.io/site/projeto-pipeline.html).
 
 ## 1. Introdução
 ### Problema
