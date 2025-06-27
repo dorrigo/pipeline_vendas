@@ -6,7 +6,6 @@
   )
 }}
 
--- Resumo consolidado de vendas
 SELECT
   DATE_TRUNC('month', v.data_venda) AS mes,
   COUNT(DISTINCT v.venda_id) AS total_vendas,
