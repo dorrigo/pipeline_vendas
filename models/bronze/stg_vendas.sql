@@ -1,0 +1,19 @@
+{{
+  config(
+    materialized='view',
+    alias='stg_vendas',
+    schema='bronze'
+  )
+}}
+
+SELECT
+  id_bronze,
+  venda_id,
+  loja_id,
+  cliente_id,
+  produto_id,
+  quantidade,
+  data_venda,
+  total,
+  data_carga
+FROM {{ source('raw', 'vendas_bronze') }}
